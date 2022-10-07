@@ -49,7 +49,7 @@ header .icon {
 }
 
 header .container {
-  width: 600px;
+  width: 100%;
   height: 100px;
   margin: 8px auto;
   padding: 32px 0;
@@ -282,7 +282,7 @@ main section + section {
 }
 
 p {
-  font-size: 2px;
+  font-size: 2vw;
 }
 
 .mail {
@@ -397,6 +397,11 @@ dl > div.appear dd {
 }
 
 /* works */
+
+.works {
+  width: 100%;
+  margin: 0 auto;
+}
 
 .works h1 {
   width: 100%;
