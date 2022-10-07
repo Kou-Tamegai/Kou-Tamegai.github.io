@@ -2,6 +2,7 @@
 
 body {
   margin: 0;
+  -webkit-text-size-adjust: 100%;
 }
 
 img {
@@ -22,6 +23,11 @@ h2 {
 .container p {
   font-size: 22px;
 }
+
+a {
+  color: #0bd;
+}
+
 
 /* header */
 
@@ -160,7 +166,7 @@ main section + section {
 @media (min-width: 600px) {
   .pc-menu {
     display: block;
-    width: 500px;
+    width: 600px;
     margin: 0 auto;
   }
 
@@ -240,6 +246,10 @@ main section + section {
 .overlay.show li {
   opacity: 1;
   transform: none;
+}
+
+.overlay a {
+  text-decoration: none;
 }
 
 .overlay.show li:nth-child(1) {
@@ -387,11 +397,8 @@ dl > div.appear dd {
 
 /* works */
 
-.works section {
-  padding: 8px;
-}
-
 .works h1 {
+  width: 100%;
   text-align: center;
   padding: 24px 0;
   border-bottom: 2px solid #aaa;
@@ -407,26 +414,15 @@ dl > div.appear dd {
 }
 
 .works p {
-  font-size: 18px;
+  font-size: 2vw;
+  word-wrap: break-word
 }
 
 .works section {
   background: rgb(230, 179, 231);
-  width: 50%;
-  height: 150px;
+  width: 60%;
   margin: 42px auto;
+  padding: 8px 8px 16px;
   border: 2px solid #aaa;
   border-radius: 8px;
-}
-
-/* backAnimation */
-
-.box {
-  background: #fff;
-  border-radius: 5px;
-  padding: 20px;
-  text-align: center;
-}
-a {
-  color: #0bd;
 }
