@@ -407,6 +407,7 @@ dl > div.appear dd {
 .works h2 {
   padding: 12px;
   text-align: center;
+  font-size: 5vw;
 }
 
 .works a {
@@ -414,15 +415,15 @@ dl > div.appear dd {
 }
 
 .works p {
-  font-size: 2vw;
+  font-size: 3vw;
   word-wrap: break-word
 }
 
 .works section {
   background: rgb(230, 179, 231);
-  width: 60%;
-  margin: 42px auto;
-  padding: 8px 8px 16px;
+  width: 45%;
+  margin: 78px auto;
+  padding: 16px;
   border: 2px solid #aaa;
   border-radius: 8px;
 }
