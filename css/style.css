@@ -45,7 +45,6 @@ header .container p {
   height: 15vh;
   padding: 1vw;
   margin: 5vw;
-  margin-right: 10%;
   display: inline-block;
 }
 
@@ -256,9 +255,14 @@ main section + section {
 .overlay li {
   margin-top: 24px;
   opacity: 0;
+  font-size: 5vw;
   font-weight: bold;
   transform: translateY(16px);
   transition: opacity .3s, transform .3s;
+}
+
+.overlay .bi-youtube {
+  font-size: 5vw;
 }
 
 .overlay.show li {
