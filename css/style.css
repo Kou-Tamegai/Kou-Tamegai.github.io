@@ -23,14 +23,11 @@ h2 {
   font-size: 22px;
 }
 
-.container {
-  padding-bottom: 80px;
-}
-
 /* header */
 
 header {
   background: #f4c2a9a5;
+  width: 100%;
   padding: 24px 36px 8px;
   position: relative;
 }
@@ -102,15 +99,18 @@ header #birth {
   padding: 6px 12px 12px;
 }
 
-Marquee.hide {
-  display: none;
-}
-
 /* main */
+
+main {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+}
 
 main .container {
   width: 600px;
   margin: 0 auto;
+  padding-bottom: 60px;
 }
 
 main h1 {
@@ -387,6 +387,10 @@ dl > div.appear dd {
 
 /* works */
 
+.works section {
+  padding: 8px;
+}
+
 .works h1 {
   text-align: center;
   padding: 24px 0;
@@ -394,8 +398,16 @@ dl > div.appear dd {
 }
 
 .works h2 {
-  padding-top: 12px;
+  padding: 12px;
   text-align: center;
+}
+
+.works a {
+  text-decoration: none;
+}
+
+.works p {
+  font-size: 18px;
 }
 
 .works section {
@@ -408,9 +420,7 @@ dl > div.appear dd {
 }
 
 /* backAnimation */
-/* .container {
-  height: 100vh;
-} */
+
 .box {
   background: #fff;
   border-radius: 5px;
