@@ -61,7 +61,7 @@ header .icon {
 header .container {
   width: 100%;
   height: 30%;
-  margin: 8px auto;
+  margin: 4vh auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,7 +101,7 @@ header #birth {
   cursor: pointer;
   position: absolute;
   top: 1vw;
-  right: 6vw;
+  right: 4vw;
   bottom: 0;
 }
 
