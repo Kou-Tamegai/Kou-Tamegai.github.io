@@ -55,7 +55,7 @@ i {
 header .icon {
   width: 20vw;
   height: auto;
-  margin-left: 20%;
+  margin-left: 10%;
 }
 
 header .container {
@@ -67,9 +67,9 @@ header .container {
   align-items: center;
 }
 
-/* header .container div + div {
-  margin-left: 32px;
-} */
+header .container div + div {
+  margin-left: 10vw;
+}
 
 header h1 {
   font-size: 3vw;
@@ -153,7 +153,7 @@ main p {
 }
 
 main section + section {
-  margin-top: 60px;
+  margin-top: 15vh;
 }
 
 /* animation */
@@ -183,7 +183,7 @@ main section + section {
 @media (min-width: 600px) {
   .pc-menu {
     display: block;
-    width: 600px;
+    width: 80vw;
     margin: 0 auto;
   }
 
@@ -200,8 +200,8 @@ main section + section {
   .pc-menu a {
     display: block;
     text-decoration: none;
-    width: 100px;
-    line-height: 60px;
+    width: 15vw;
+    line-height: 10vh;
     text-align: center;
   }
 
@@ -298,7 +298,7 @@ main section + section {
 
 .contact h1 {
   text-align: center;
-  padding: 24px 0;
+  padding: 4vh 0;
   border-bottom: 2px solid #aaa;
 }
 
@@ -311,12 +311,12 @@ p {
   border-radius: 8px;
   background: rgb(241, 218, 136);
   margin: 64px auto;
-  padding-bottom: 42px;
-  width: 50%;
+  padding-bottom: 5vh;
+  width: 45vw;
 }
 
 .mail h2 {
-  font-size: 5vw;
+  font-size: 3vw;
   text-align: center;
   margin: 3vw;
 }
@@ -450,7 +450,7 @@ dl > div.appear dd {
 .works section {
   background: rgb(230, 179, 231);
   width: 45%;
-  margin: 20vw auto;
+  margin: 10vw auto;
   padding: 16px;
   border: 2px solid #aaa;
   border-radius: 8px;
