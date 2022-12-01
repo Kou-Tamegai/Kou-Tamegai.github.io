@@ -294,12 +294,8 @@ main section + section {
 
 .contact h1 {
   text-align: center;
-  padding: 4vh 0;
+  padding: 12px 0;
   border-bottom: 2px solid #aaa;
-}
-
-p {
-  font-size: 2vw;
 }
 
 .mail {
@@ -308,18 +304,18 @@ p {
   background: rgb(241, 218, 136);
   margin: 64px auto;
   padding-bottom: 5vh;
-  width: 45vw;
+  max-width: 400px;
 }
 
 .mail h2 {
-  font-size: 3vw;
+  font-size: 26px;
   text-align: center;
   margin: 3vw;
 }
 
 .mail p {
   text-align: center;
-  font-size: 3vw;
+  font-size: 22px;
 }
 
 .animate {
@@ -403,6 +399,10 @@ dl > div.appear dd {
   transition-delay: .3s;
 }
 
+.p4 {
+  transition-delay: .4s;
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -450,4 +450,14 @@ dl > div.appear dd {
   padding: 16px;
   border: 2px solid #aaa;
   border-radius: 8px;
+}
+
+@media screen and (max-width:600px) {
+  .mail  {
+    width: 300px;
+  }
+
+  .mail p {
+    font-size: 18px;
+  }
 }
