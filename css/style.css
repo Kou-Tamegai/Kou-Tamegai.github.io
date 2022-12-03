@@ -403,6 +403,10 @@ dl > div.appear dd {
   transition-delay: .4s;
 }
 
+.p5 {
+  transition-delay: .5s;
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
