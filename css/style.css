@@ -448,12 +448,16 @@ dl > div.appear dd {
 }
 
 .works section {
-  background: rgb(230, 179, 231);
+  background: rgb(255, 255, 255);
   max-width: 400px;
   margin: 80px auto;
   padding: 16px;
   border: 2px solid #aaa;
   border-radius: 8px;
+}
+
+.workspic {
+  max-width: 400px;
 }
 
 @media screen and (max-width:600px) {
